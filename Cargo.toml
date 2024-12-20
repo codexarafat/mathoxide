@@ -1,13 +1,2 @@
-[package]
-name = "mathoxide"
-version = "0.1.0"
-edition = "2021"
-authors = ["Md.Yeasin Arafat codexarafat@gmail.com"]
-description = "A Math Crate Built for Rust."
-repository = "https://github.com/codexarafat/mathoxide"
-homepage = "https://github.com/codexarafat/mathoxide"
-readme = "README.md"
-license = "MIT"
-
-
-[dependencies]
+[workspace]
+members = ["crates/mathoxide"]
